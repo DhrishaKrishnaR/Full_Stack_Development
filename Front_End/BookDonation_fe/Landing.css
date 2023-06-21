@@ -1,0 +1,152 @@
+.details
+{
+  background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/White-Background-Aesthetic-Backgrounds-Cloud-White.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}  
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .model {
+    width: 500px;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+  }
+  
+  .modal .content {
+    margin-bottom: 10px;
+  }
+  
+  .modal .content input {
+    width: 30%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .center {
+    text-align: center;
+  }
+  
+.list
+{
+    background: transparent;
+    color:white;
+}
+
+
+button[class="bt0"]
+{
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    width: 170px;
+    height: 40px;
+    background-color:black;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    transition: 0.4s ease;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+  }
+  button[class="bt0"]:hover
+  {
+          background-color:grey;
+      }
+button[class="add"] {
+  margin-top: 1x;
+  cursor: pointer;
+  font-size: 18px;
+  background:black;
+  border: 1px solid black;
+  color: #fff;
+  border-radius: 10px;
+  padding: 4px 20px;
+  
+}
+
+button[class="add"]:hover {
+  background:grey;
+}
+.editbt
+{
+    
+    font-family: Arial;
+    width: 70px;
+    height: 30px;
+    background: #008000bc;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    margin-right: 5px;
+
+}
+.editbt:hover{
+    background-color:darkgreen;
+}
+.delbt
+{
+    
+    font-family: Arial;
+    width: 70px;
+    height: 30px;
+    background: rgba(255, 0, 0, 0.727);
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+   margin-left: 25px;
+   margin-right: 5px;
+
+}
+.delbt:hover{
+    background-color:firebrick;
+}
+.updatebt
+{
+    font-family: Arial;
+    width: 70px;
+    height: 30px;
+    background: #008000bc;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+   margin-left: 25px;
+   padding: 5px 10px;
+   margin-right: 5px;
+
+}
+.updatebt:hover{
+    background-color:darkgreen;
+}
+.centerdone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

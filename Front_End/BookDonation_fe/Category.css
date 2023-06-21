@@ -1,0 +1,35 @@
+button[class="book"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:black;
+    border: 1px solid cadetblue;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  button[class="book"]:hover {
+    background: #6cf0c2;
+  }
+  .body8
+  {
+    background :no-repeat url("https://images.unsplash.com/photo-1670409702404-7bebbe0721cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Nnx8fGVufDB8fHx8&w=1000&q=80");
+    background-size:cover;
+    font-size: 20px;
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .cat {
+    background-color:rgba(255, 228, 196, 0.87);
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    position:relative; 
+    left:60px; top:2px; 
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

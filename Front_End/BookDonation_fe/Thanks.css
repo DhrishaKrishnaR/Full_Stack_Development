@@ -1,0 +1,26 @@
+.body11{
+    background :no-repeat url("https://images.squarespace-cdn.com/content/v1/59b44ed8ccc5c5736a2f490d/1510966366597-IDAD3FK0BGGRLWZRU0PU/bg-stuff.jpg?format=2500w");
+    background-size:cover;
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button[class="donate"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:palevioletred;
+    border: 1px solid cadetblue;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  button[class="donate"]:hover {
+    background:coral;
+  }

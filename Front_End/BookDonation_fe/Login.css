@@ -1,0 +1,86 @@
+.body12{
+    background :no-repeat url("https://media.istockphoto.com/id/1082069478/photo/bookshelves-in-the-library-with-old-books-3d-render.jpg?b=1&s=170667a&w=0&k=20&c=-5Hlxu_ndTNTllQRH8-j5Sk6aB26sMtq3JuE9X9GjEI=");
+    background-size:cover;
+    font-size: 20px;
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   
+}
+.img{
+    position:fixed;
+    top: 50px;
+    left: 600px;
+}
+.login-form5 {
+    background-color:rgba(169, 169, 169, 0.733);
+    padding: 15rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    text-align:justify;
+    position:relative; 
+    left:50px; top:2px; 
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+.img{
+    position:fixed;
+    top: 50px;
+    left: 600px;
+}
+
+input[type=email1],[type=password]
+{
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width:55%;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    
+    
+}
+button[class="Submit"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:cadetblue;
+    border: 1px solid cadetblue;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  button[class="Submit"]:hover {
+    background: #6cf0c2;
+  }
+button[class="login"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:cadetblue;
+    border: 1px solid cadetblue;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  button[class="login"]:hover {
+    background: #6cf0c2;
+  }
+  .button-container {
+    display:inline-block;
+    justify-content:center;
+  }
+  .input-container {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 15px;
+  }

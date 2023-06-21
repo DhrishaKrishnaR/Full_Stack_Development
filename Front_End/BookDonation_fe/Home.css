@@ -1,0 +1,36 @@
+.bodyhome{
+    background :no-repeat url("https://wallpaperaccess.com/full/4506133.jpg");
+    background-size:cover;
+    font-size: 30px;
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  font-weight: bold; 
+  color: white; 
+  position: relative; 
+  z-index: 2;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+   
+}
+
+  .donate-button {
+    background-color:white;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donate-button:hover {
+    background-color:gray;
+  }
+
+  

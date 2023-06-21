@@ -1,0 +1,45 @@
+.body5{
+    background :no-repeat url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size:cover;
+    font-size: 17px;
+    color:white;
+    font-family: sans-serif;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input[type=text],[type=number],[type=password]
+{
+    width:50%;
+    padding: 3px 22px;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+button[className="Submit1"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:rgb(209, 164, 104);
+    border: 1px solid black;
+    color: black;
+    padding: 5px 20px;
+}
+.login-form2 {
+    display: flex;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    position:relative; 
+    right:50px; top:2px; 
+    box-shadow: 1 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
